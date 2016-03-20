@@ -25,14 +25,14 @@ from ros_arduino_python.arduino_sensors import *
 from ros_arduino_msgs.srv import *
 from ros_arduino_python.base_controller import BaseController
 from ros_arduino_python.servo_controller import Servo, ServoController
-from ros_arduino_python.follow_controller import FollowController
+#from ros_arduino_python.follow_controller import FollowController
 from ros_arduino_python.joint_state_publisher import JointStatePublisher
 from geometry_msgs.msg import Twist
 import os, time
 import thread
 from math import radians
 
-controller_types = { "follow_controller" : FollowController }
+#controller_types = { "follow_controller" : FollowController }
 
 class ArduinoROS():
     def __init__(self):

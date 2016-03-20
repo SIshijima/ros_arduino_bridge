@@ -12,6 +12,7 @@ add_message_files(FILES
                  )
 
 add_service_files(FILES
+                  AnalogPinMode.srv
                   AnalogWrite.srv
                   AnalogSensorWrite.srv
                   AnalogFloatSensorWrite.srv              
@@ -20,13 +21,16 @@ add_service_files(FILES
                   AnalogFloatSensorRead.srv
                   DigitalRead.srv
                   DigitalSensorRead.srv
-                  DigitalSetDirection.srv
-                  DigitalSensorSetDirection.srv
+                  DigitalPinMode.srv
+#                  DigitalSetDirection.srv
+#                  DigitalSensorSetDirection.srv
                   DigitalWrite.srv
                   DigitalSensorWrite.srv
                   Enable.srv
                   Relax.srv
                   AnalogSensorRead.srv
+                  ServoAttach.srv
+                  ServoDetach.srv
                   ServoRead.srv
                   ServoWrite.srv
                   SetSpeed.srv
